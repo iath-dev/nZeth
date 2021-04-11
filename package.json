@@ -1,0 +1,30 @@
+{
+  "name": "nzeth",
+  "version": "1.0.0",
+  "description": "Servidor node para un servidor en ubuntu",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iath-dev/nZeth.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ubuntu"
+  ],
+  "author": "Jesus Daniel Neira Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iath-dev/nZeth/issues"
+  },
+  "homepage": "https://github.com/iath-dev/nZeth#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
